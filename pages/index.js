@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Head from '@next/head'
 import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
+      <title>MB-Fashion</title>
+      <metadata name='keyword' content="MB-Fahsion"/>
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
     <div className="products-heading">
       <h2>Best Seller Products</h2>
