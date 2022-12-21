@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from '@next/image'
 import { AiOutlineShopping } from 'react-icons/ai'
 
 import { Cart } from './';
@@ -11,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">MB-Fashion</Link>
+        <Link href="/"><Image src='./logo.jpg' alt="MB-Fashion" width={127} height={65}/></Link>
       </p>
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
