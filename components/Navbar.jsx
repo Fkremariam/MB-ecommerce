@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/"><Image className='Logo' src='/logo.png'  width={110} height={65} />
+        <Link href="/"><Image className='Logo' src='/logo.png' alt="MB-Fashion" width={110} height={65} />
         <style jsx>{`
         .Logo {
           margin: 50px;
