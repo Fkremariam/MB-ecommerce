@@ -1,7 +1,7 @@
 import React from 'react';
-import SEO from "@components/seo";
+
 import { client } from '../lib/client';
-import { Product, FooterBanner, HeroBanner } from '../components';
+import { Product, FooterBanner, HeroBanner,SEO } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
