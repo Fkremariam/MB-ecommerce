@@ -5,11 +5,9 @@ import { Product, FooterBanner, HeroBanner,SEO } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
-    <Head>
+    {/* <div>
       <SEO pageTitle="Homepage" pageDescription="Welcome to MB-Fashions" />
-
-    </Head>
-
+    </div> */}
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
     <div className="products-heading">
       <h2>Best Seller Products</h2>

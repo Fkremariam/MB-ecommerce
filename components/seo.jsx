@@ -4,7 +4,6 @@ const SEO = ({ pageTitle, pageDescription }) => (
     <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
-        ...
     </Head>
 );
 
