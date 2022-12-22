@@ -1,13 +1,13 @@
 import React from 'react';
-import Head from '@next/head'
+import SEO from "@components/seo";
 import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
     <Head>
-      <title>MB-Fashion</title>
-      <metadata name='keyword' content="MB-Fahsion"/>
+      <SEO pageTitle="Homepage" pageDescription="Welcome to MB-Fashions" />
+
     </Head>
 
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
