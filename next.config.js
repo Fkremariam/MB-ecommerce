@@ -10,4 +10,9 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+   reactStrictMode: true,
+    images: {
+     loader: "me",
+     path: "/",
+    },
 }
