@@ -14,7 +14,7 @@ export default {
     },
     { 
       name: 'name',
-      title: 'Name',
+      title: 'name',
       type: 'string',
     },
     { 
@@ -35,6 +35,7 @@ export default {
       name: 'details',
       title: 'Details',
       type: 'string',
-    }
+    },
+
   ]
 }
