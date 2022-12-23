@@ -13,12 +13,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <p className="logo">
         <Link href="/"><Image className='Logo' src='/logo.png' alt="MB-Fashion" width={100} height={65} />
-        <style jsx>{`
-        .Logo {
-          margin: 50px;
-          round
-        }
-      `}</style></Link>
+        </Link>
       </p>
       
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
