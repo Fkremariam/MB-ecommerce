@@ -12,7 +12,7 @@ module.exports = {
   },
    reactStrictMode: true,
     images: {
-     loader: "me",
+     loader: "akamai",
      path: "/",
     },
 }
