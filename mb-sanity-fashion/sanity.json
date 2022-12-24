@@ -26,7 +26,7 @@
       "path": "./schemas/schema"
       
     },
-    {"implements": "part:@sanity/base/brand-logo",
+    {"implements": "part:@sanity/base/static",
       "path": "./static/Logo.pgn"}
   ]
 }
