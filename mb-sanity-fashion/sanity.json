@@ -27,6 +27,6 @@
       
     },
     {"implements": "part:@sanity/base/static",
-      "path": "./static/Logo.pgn"}
+      "path": "/static/Logo.pgn"}
   ]
 }
