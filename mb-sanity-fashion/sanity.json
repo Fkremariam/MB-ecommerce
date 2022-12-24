@@ -24,6 +24,9 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
-    }
+      
+    },
+    {"implements": "part:@sanity/base/brand-logo",
+      "path": "./static/Logo.js"}
   ]
 }
