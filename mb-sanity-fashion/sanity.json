@@ -27,6 +27,6 @@
       
     },
     {"implements": "part:@sanity/base/brand-logo",
-      "path": "./static/Logo.js"}
+      "path": "/static/Logo.js"}
   ]
 }
