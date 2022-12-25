@@ -150,18 +150,18 @@ span.text-red {
 }
 
 .hero-banner-container {
-  padding: 100px 40px;
+  padding: 80px 40px;
   background-color: rgb(244, 201, 201);
   border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: 600px;
   line-height: 0.9;
   width: 100%;
 
 }
 
 .hero-banner-container .beats-solo {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .hero-banner-container button {
@@ -184,14 +184,14 @@ span.text-red {
 
 .hero-banner-container h1 {
   color: rgb(249, 250, 251);
-  font-size: 10em;
-  margin-left: -20px;
+  font-size: 145px;
+  margin-left: -10px;
   text-transform: uppercase;
 }
 
 .hero-banner-image {
   position: absolute;
-  top: 5%;
+  top: 20%;
   right: 3%;
   width: 350px;
   height: 350px;
@@ -246,7 +246,7 @@ span.text-red {
   background-color: #f02d34;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  height: 450px;
   line-height: 1;
   color: white;
   width: 100%;
@@ -264,15 +264,16 @@ span.text-red {
   background-color: white;
   color: red;
   border: none;
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
 
 .banner-desc .left h3 {
-  font-weight: 900;
-  font-size: 80px;
+  font-weight: 500;
+  font-style: oblique;
+  font-size: 55px;
   margin-left: 25px;
 }
 
@@ -284,19 +285,19 @@ span.text-red {
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -5%;
+  top: 20%;
   left: 43%;
   width: 230px;
   height: 280px;
 }
 
 .banner-desc .right {
-  line-height: 1.4;
+  line-height: 1;
 }
 
 .banner-desc .right h3 {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .banner-desc .right p {
@@ -741,13 +742,13 @@ span.text-red {
   }
 
   .banner-desc .left h3 {
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 500;
+    font-size: 30px;
     margin-left: 5px;
   }
 
   .banner-desc .left p {
-    margin: 18px;
+    margin: 10px;
   }
 
   .banner-desc .right h3 {
@@ -755,7 +756,7 @@ span.text-red {
   }
 
   .banner-desc .right p {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .banner-desc .right .company-desc {
@@ -772,7 +773,7 @@ span.text-red {
   }
 
   .hero-banner-container h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .hero-banner-container h3 {
