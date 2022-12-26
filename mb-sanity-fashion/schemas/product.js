@@ -29,7 +29,11 @@ export default {
     { 
       name: 'price',
       title: 'Price',
-      type: 'number',
+      type: 'array',
+      of: [{ type: 'string' }],
+      options: {
+        hotspot: true,
+      }
     },
     { 
       name: 'details',

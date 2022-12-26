@@ -51,7 +51,11 @@ const ProductDetails = ({ product, products }) => {
           </div>
           <h4>Details: </h4>
           <p>{details}</p>
-          <p className="price">{price}Birr</p>
+          <div className="small-images-container">
+           {price?.map((item, i) => ( 
+               <p className={i === index ? 'small-price selected-price' : 'small-price'} key={i} onMouseEnter={()=> setIndex(i)}>{item}Birr</p>
+               ))}
+          </div> 
           <div className="quantity">
             <h3>Quantity:</h3>
             <p className="quantity-desc">

@@ -516,11 +516,22 @@ span.text-red {
   height: 70px;
   cursor: pointer;
 }
-
-.selected-image {
-  background-color: #f02d34;
+.small-price {
+  margin-right: 16px;
+  padding: 4px 4px 3px 10px;
+  border-radius: 8px;
+  background-color: #f7f8ef;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
 }
-
+.selected-image {
+  background-color: #10e1fd;
+}
+.selected-price {
+  
+  background-color: #90befe;
+}
 .reviews {
   color: #f02d34;
   margin-top: 10px;
