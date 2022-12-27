@@ -14,7 +14,7 @@ export default {
     },
     { 
       name: 'name',
-      title: 'name',
+      title: 'Name',
       type: 'string',
     },
     { 
@@ -29,17 +29,12 @@ export default {
     { 
       name: 'price',
       title: 'Price',
-      type: 'array',
-      of: [{ type: 'string' }],
-      options: {
-        hotspot: true,
-      }
+      type: 'number',
     },
     { 
       name: 'details',
       title: 'Details',
       type: 'string',
-    },
-
+    }
   ]
 }

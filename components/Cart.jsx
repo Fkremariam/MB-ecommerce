@@ -12,25 +12,25 @@ const Cart = () => {
   const cartRef = useRef();
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove } = useStateContext();
 
-  const handleCheckout = async () => {
-    const stripe = await getStripe();
+  // const handleCheckout = async () => {
+  //   const stripe = await getStripe();
 
-    const response = await fetch('/api/stripe', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(cartItems),
-    });
+  //   const response = await fetch('/api/stripe', {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify(cartItems),
+  //   });
 
-    if(response.statusCode === 500) return;
+  //   if(response.statusCode === 500) return;
     
-    const data = await response.json();
+  //   const data = await response.json();
 
-    toast.loading('Redirecting...');
+  //   toast.loading('Redirecting...');
 
-    stripe.redirectToCheckout({ sessionId: data.id });
-  }
+  //   stripe.redirectToCheckout({ sessionId: data.id });
+  // }
 
   return (
     <div className="cart-wrapper" ref={cartRef}>
@@ -67,7 +67,7 @@ const Cart = () => {
               <div className="item-desc">
                 <div className="flex top">
                   <h5>{item.name}</h5>
-                  <h4>{price} Birr</h4>
+                  <h4>{item.price} Birr</h4>
                 </div>
                 <div className="flex bottom">
                   <div>
@@ -98,9 +98,9 @@ const Cart = () => {
               <h3>{totalPrice} Birr</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={handleCheckout}>
-                Pay with TeleBirr
-              </button>
+              <p>Contact Us :- 09-00-46-79-79</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:- 09-11-78-31-32</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:- 09-62-39-37-30</p>
             </div>
           </div>
         )}
